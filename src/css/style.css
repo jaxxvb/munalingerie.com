@@ -6,13 +6,13 @@
     Distributor: http://bootstraptema.ru/
 */
 
-body {
+/*body {
 	line-height: 7;
     height: 100%;
     background: #ffffff url('../img/bg.jpg') no-repeat center top;
     background-size: cover;
 	/*font-family: 'Open Sans', sans-serif;*/
-}
+}*/
 ol, ul {
 	list-style: none;
 }
@@ -32,12 +32,53 @@ table {
 ***********************************/
 /**********************************
 ***********************************/
+/*    @media only screen and (max-width: 959px) {
+   .site-title img {
+      display: none;
+   }
+   .site-title a {
+      display: inline-block;
+      background: url("images/logo1.png") no-repeat center center;
+      background-size: contain;
+      width: 220px;
+      height: 40px;
+   }
+}
+ 
+    @media only screen and (max-width: 519px) {
+   .site-title a {
+      background-image: url("images/logo.png");
+      width: 100px;
+      height: 44px;
+   }
+}*/
     .logo h2 {
     /*font-family: 'Old Standard TT', cursive;*/
     font-size: 34px;
     padding-top: 50px;
 
     }
+
+@media only screen and (max-width: 959px) {
+   .site-title img {
+      display: none;
+   }
+   .site-title a {
+      display: inline-block;
+      background: url("images/logo1.png") no-repeat center center;
+      background-size: contain;
+      width: 220px;
+      height: 40px;
+   }
+}
+ 
+@media only screen and (max-width: 519px) {
+   .site-title a {
+      background-image: url("images/logo.png");
+      width: 100px;
+      height: 44px;
+   }
+}
    .logo_text_center {
     /*background: url(images/logo.png);*/
     float: none;
@@ -54,13 +95,13 @@ table {
     margin-bottom: -30px;
    }
    .block2 { 
-    width: 100%; 
+    width: 100%;
     height: 80px;
-    background: #3E2245; 
-    padding: 0px; 
-    float: left; 
-    position: relative; 
-    top: 173px; 
+    background: #3E2245;
+    padding: 0px;
+    float: left;
+    position: absolute;
+    top: 510px;
    }
    .social ul li {
     display: -webkit-inline-box;

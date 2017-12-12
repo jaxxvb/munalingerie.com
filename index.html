@@ -9,21 +9,41 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-<title>Muna Lingerie</title>
+    <title>Muna Lingerie</title>
   </head>
  <style> 
-   html { height: 100%; }
+   /*html { height: 100%; }*/
    body {
-    background: url(images/bg3.jpg) no-repeat center center fixed; 
+    background: url(images/bg3.jpg); 
     background-size: cover;
+    background-repeat: no-repeat;
    } 
+       @media only screen and (max-width: 959px) {
+   .site-title img {
+      display: none;
+   }
+   .site-title a {
+      display: inline-block;
+      background: url("images/logo1.png") no-repeat center center;
+      background-size: contain;
+      width: 220px;
+      height: 40px;
+   }
+}
+ 
+    @media only screen and (max-width: 519px) {
+   .site-title a {
+      background-image: url("images/logo.png");
+      width: 100px;
+      height: 44px;
+   }
+}
   </style>
-
  </head>
  <body>
 
-<div class="logo_text_center"><img src="images/logo1.png" alt="logo" width="50%" align="center"></div>
-<div class="block1"><h2>MUNA – білизна для яскравих особистостей, </br>
+<div class="logo_text_center"><img src="images/logo1.png" alt="logo" width="500" align="center"></div>
+  <div class="block1"><h2>MUNA – білизна для яскравих особистостей, </br>
     які не приховують свої бажання...</h2></div>
 <section>
   <div class = "block2">
@@ -46,4 +66,3 @@
       </section>
  </body>
 </html>
-
