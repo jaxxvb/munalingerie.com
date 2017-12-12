@@ -88,11 +88,10 @@ table {
    .block1 { 
     font-family: 'Old Standard TT', cursive;
     color: #ffffff;
-    width: 100%; 
+    width: 100%;
     text-align: center;
-    float: left;
-    margin-top: 110px;
-    margin-bottom: -30px;
+    position: absolute;
+    top: 40%;
    }
    .block2 { 
     width: 100%;
@@ -101,7 +100,7 @@ table {
     padding: 0px;
     float: left;
     position: absolute;
-    top: 510px;
+    top: 70%;
    }
    .social ul li {
     display: -webkit-inline-box;
